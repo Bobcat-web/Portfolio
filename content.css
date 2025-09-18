@@ -1,0 +1,151 @@
+body{
+    width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 60px 60px;
+  box-sizing: border-box;
+  cursor: url(./img/main-coursor.png), auto;
+}
+
+h1{
+    font-family: 'Non Bureau', sans-serif; 
+    font-size: 28px; 
+    line-height: 2; 
+    text-transform: uppercase;
+}
+
+.meet-up h1{
+    font-size: 470px; 
+    line-height: 400px;
+    margin-bottom: 50px;
+}
+
+.custom-cursor{
+    cursor: url('./img/coursor.png'), auto;
+}
+
+#first-line{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 550px 0px 100px;
+}
+
+.service-list{
+    list-style-type: none;    
+    padding: 0;
+}
+
+.service-list li {    
+    margin: 0px 0px 10px 0px; 
+    counter-increment: item;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 14px; 
+    line-height: 1.2; 
+    display: flex;    
+    justify-content: flex-start;
+    cursor: url(./img/coursor-hover.png), auto;
+}
+
+.tag {    
+    padding: 0px 15px;    
+    border-radius: 5px;    
+    color: rgb(153, 245, 25);    
+    font-weight: bold;
+}
+
+.soon {      
+    color: rgb(255, 210, 8);
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 14px; 
+    line-height: 1.5; 
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 200px 0px 100px;
+}
+
+h2{
+    font-family: 'Non Bureau', sans-serif; 
+    font-size: 18px; 
+    line-height: 2; 
+    text-transform: uppercase;
+    margin: 30px 0px 0px 830px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 220px 0px 830px;
+}
+
+.hard-skills li{
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 14px; 
+    line-height: 2; 
+}
+
+.hard-skills li:nth-last-child(2) {    
+    margin-top: 100px; 
+}
+
+
+.soft-skills li{
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 14px; 
+    line-height: 2; 
+}
+
+.soft-skills li:nth-last-child(4) {
+    margin-top: 100px; 
+}
+
+.funny-frase{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: -190px;
+    height: 220px;
+}
+
+.edu{
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 14px; 
+    line-height: 2; 
+    margin-top: 30px;
+    margin-left: 830px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+footer h2{
+    margin: 100px 485px 0px 100px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(19, 110, 228);
+}
+
+a:hover{
+    cursor: url(./img/coursor-hover.png), auto;
+}
+
+.photos{
+    position: absolute;
+    margin: 100px 0px 0px 100px;
+    display: none;
+}
+
+.photos img{
+    width: 500px;
+}
+
