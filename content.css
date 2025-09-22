@@ -1,0 +1,161 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: url(./img/main-coursor.png), auto;
+}
+
+.meet-up {
+  font-family: "Non Bureau";
+  font-weight: bold;
+  font-size: 35vw;
+  margin: 10vw 4vw;
+  cursor: url(./img/coursor.png), auto;
+  color: rgb(5, 13, 26);
+}
+
+#about {
+  display: flex;
+  justify-content: space-between;
+  margin: 0vw 5vw;
+  font-family: "Roboto Condensed";
+  font-size: 1vw;
+  line-height: 1.4vw;
+}
+
+#about h1 {
+  font-family: "Non Bureau";
+  font-size: 2vw;
+  margin-bottom: 3vw;
+}
+
+ol li {
+  counter-increment: item;
+  cursor: url(./img/coursor-hover.png), auto;
+}
+
+ol li::before {
+  content: counter(item, decimal-leading-zero) ". ";
+  display: inline-block;
+  width: 30px;
+}
+
+.tag {
+  padding: 0px 15px;
+  border-radius: 5px;
+  color: rgb(153, 245, 25);
+  font-weight: bold;
+}
+
+.soon {
+  color: rgb(255, 210, 8);
+}
+
+.skills {
+  font-family: "Roboto Condensed";
+  font-size: 1vw;
+  line-height: 1.4vw;
+}
+
+.skills h1 {
+  font-family: "Non Bureau";
+  font-size: 2vw;
+  margin: 15vw 0vw 3vw 66.5vw;
+  text-transform: uppercase;
+}
+
+.skill_list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 66.5vw;
+  margin-right: 10vw;
+}
+
+.hard-skills li:nth-last-child(2) {
+  margin-top: 5vw;
+}
+
+.soft-skills li:nth-last-child(4) {
+  margin-top: 5vw;
+}
+
+.edu {
+  font-family: "Roboto Condensed";
+  font-size: 1vw;
+  line-height: 1.4vw;
+  margin-left: 66.5vw;
+}
+
+.edu h1 {
+  font-family: "Non Bureau";
+  font-size: 2vw;
+  margin: 12vw 0vw 3vw 0vw;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Non Bureau";
+  font-size: 1.5vw;
+  color: rgb(23, 23, 198);
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10vw 27vw 5vw 10vw;
+}
+
+a:hover {
+  cursor: url(./img/coursor-hover.png), auto;
+}
+
+.service-item {
+  position: relative;
+}
+
+.service-item::before {
+  content: "";
+  width: 25.5vw;
+  height: 33vh;
+  position: absolute;
+  top: 30vh;
+  left: 40%;
+  background-size: cover;
+  background-color: none;
+  z-index: 1;
+  display: none;
+}
+
+.service-item:hover::before {
+  display: block;
+}
+
+.service-item1::before {
+  background-image: url(./img/6proj.png);
+}
+
+.service-item2::before {
+  background-image: url(./img/5proj.png);
+}
+
+.service-item3::before {
+  background-image: url(./img/4proj.png);
+}
+
+.service-item4::before {
+  background-image: url(./img/3proj.png);
+}
+
+.service-item5::before {
+  background-image: url(./img/2proj.png);
+}
+
+.service-item6::before {
+  background-image: url(./img/1proj.png);
+}

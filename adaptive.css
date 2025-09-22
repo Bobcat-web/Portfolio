@@ -1,0 +1,60 @@
+@media (max-width: 600px) {
+  .meet-up {
+    margin: 20vw 4vw 0vw 5vw;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+
+  #about h1 {
+    font-family: "Non Bureau";
+    font-size: 12vw;
+    margin: 30vw 0vw 10vw 2vw;
+  }
+
+  #about ol {
+    margin-left: 2vw;
+  }
+
+  #about p {
+    margin-left: 2vw;
+  }
+
+  .tag {
+    padding: 0px 30px;
+  }
+
+  .skills {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+
+  .skills h1 {
+    font-size: 12vw;
+    margin: 30vw 0vw 10vw 6vw;
+  }
+
+  .skill_list {
+    margin-left: 6vw;
+  }
+
+  .edu {
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-left: 6vw;
+  }
+
+  .edu h1 {
+    font-size: 12vw;
+    margin: 25vw 0vw 10vw 0vw;
+  }
+
+  h2 {
+    margin: 15vw 0vw 5vw 10vw;
+    font-size: 4vw;
+  }
+}
